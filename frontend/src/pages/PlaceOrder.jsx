@@ -47,6 +47,7 @@ const PlaceOrder = () => {
           }
         }
       }
+
       let orderData = {
         address: formData,
         items: orderItems,
@@ -77,6 +78,8 @@ const PlaceOrder = () => {
 
           break;
 
+        case 'razorpay':
+          toast.error('Please choose another Method')
 
         default:
           break;
@@ -137,7 +140,7 @@ const PlaceOrder = () => {
             </div>
           </div>
           <div className='w-full text-end mt-8'>
-            <button type='submit' onClick={() => navigate('/orders')} className='bg-black text-white px-16 py-3 text-sm cursor-pointer'>PLACE ORDER </button>
+            <button type='submit' className='bg-black text-white px-16 py-3 text-sm cursor-pointer'>PLACE ORDER </button>
           </div>
         </div>
       </div>
