@@ -20,7 +20,8 @@ The app comes with modern UI, powerful filtering options, and smooth user experi
 - 🏷️ **Category & Price Filter** – Filter products based on category, price, and more.  
 - 📱 **Responsive Design** – Works seamlessly across desktop, tablet, and mobile.  
 - 🛒 **Add to Cart** – Smooth cart management system.  
-- ⚡ **Fast & Optimized** – Built with React components and Tailwind utility classes.  
+- ⚡ **Fast & Optimized** – Built with React components and Tailwind utility classes. 
+- 💵 **Stripe Payment Integration** – Fast and secure checkout using Stripe’s payment API.
 
 ---
 

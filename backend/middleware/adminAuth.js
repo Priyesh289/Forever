@@ -11,9 +11,6 @@ const adminAuth = async (req, res, next) => {
             return res.json({ success: false, message: 'Not Authorized Login Again' })
         }
 
-        
-
-
         next()
     } catch (error) {
         console.log(error);
